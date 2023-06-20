@@ -1,0 +1,89 @@
+
+
+body{
+    background-color: #94ddb9;
+    font-family: 'poppins';
+}
+
+#navbar{
+    font-size: 1.4rem;
+    font-weight: 100;
+    
+}
+
+#home{
+    margin: 3em;
+}
+#navbar .nav-link{
+    color: white;
+
+}
+
+#navbar .nav-link:hover{
+    color: black
+}
+
+#navbar .navbar-brand{
+    font-size: 1.4rem;
+}
+
+/* @media (max-width: 594px){
+    h1{
+        font-size: 300px;
+    }
+} */
+
+
+#title-brand{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blurb h2{
+color:#354259;
+font-weight: 100;
+font-size: 2.5rem;
+}
+
+
+.blurb p{
+    color: #3f4e4f;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+@media (max-width: 1200px){
+    #title-brand h1{
+        font-weight: 100;
+        font-size: 3rem;
+      
+    }
+}
+/* 
+#museum{
+    display: flex;
+    justify-content: center;
+} */
+
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.button-pricy{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(80, 158, 204);
+    color: black;
+    padding: 9px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-pricy:hover{
+    color: rgb(31, 29, 29);
+    background-color: #4ab6d1;
+}
+
